@@ -510,7 +510,7 @@ hi! link VisualNOS Visual
 call s:HL('Search',    s:yellow, s:bg0, s:inverse)
 call s:HL('IncSearch', s:hls_cursor, s:bg0, s:inverse)
 
-call s:HL('Underlined', s:white, s:none, s:underline)
+call s:HL('Underlined', s:gb.light0, s:none, s:underline)
 
 call s:HL('StatusLine',   s:bg2, s:fg1, s:inverse)
 call s:HL('StatusLineNC', s:bg1, s:fg4, s:inverse)
